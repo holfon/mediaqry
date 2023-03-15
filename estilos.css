@@ -1,0 +1,102 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  
+.contents header.mega h1 {
+  color: #eee;
+  letter-spacing: .25px;
+  text-shadow: 5px 5px 3px #0009;
+  margin: 0;
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 80%;
+
+}
+.contents {
+  font-family: var(--font-header);
+  font-variation-settings: "wght" 300;
+  color: var(--fgcolor);
+  letter-spacing: -.25px;
+  font-size: 1.33rem;
+  line-height: 150%;
+}
+
+body.css {
+  --theme-item: #1572b6d9;
+  --theme-gradient: #3b63db
+  linear-gradient(#3b63db 50%,#2a479e0);
+  --theme-color: #5275df;
+}
+/*  @media screen and (max-width: 1370px) 
+  and (max-device-pixel-ratio:2), 
+  screen and (max-width: 1370px) and 
+  (orientation: landscape), screen and (max-width: 1370px) and (orientation:portrait)
+
+root {
+  --content-width: calc(var(--page-width) - var(--sidebar-width));
+}*/
+
+:root {
+  --theme: #1572b6d9;
+  --bgcolor: #eee;
+  --fgcolor: #333;
+  --header-height: 150px;
+  --page-width: 100%;
+  --sidebar-width: 350px;
+  --aside-width: 315px;
+  --content-width: calc(var(--page-width) - var(--sidebar-width) - var(--aside-width));
+  --sidebar-background-color: #223;
+  --sidebar-inner-color: #000018;
+  --sidebar-current-color: #363657;
+  --sidebar-hover-color: #334;
+  --sidebar-active-color: #eee;
+  font-size: 16px;
+}
+:root {
+  --font-normal: "Scope One";
+  --font-header: "Blinker";
+  --font-code: "Victor Mono";
+  --font-strong: "Montserrat";
+  --font-pixel: "EnterCommand";
+}
+
+
+.content :is(pre.language-html,pre.language-css,pre.language-js,pre.language-bash) {
+    background: #232323 linear-gradient(90deg,#212121 10px,#181818 10px 110px,#212121 110px
+px
+ 100%);
+    padding: 25px 15px;
+    line-height: 1rem;
+    overflow: auto;
+    box-shadow: 0 0 8px #333, inset 0 5px #00000080;
+}
+  Table 
+
+.content table th, .content table td {
+    padding: 8px;
+}
+
+.content thead tr {
+  color: #eee;
+}
+
+.content table th {
+  border: 1px solid var(--theme-color);
+  color: #fff;
+  font-family: var(--font-header);
+  font-variation-settings: "wght" 50;
+  letter-spacing: .5px;
+  text-shadow: 0 1px 4px #0008;
+}
+
+.contents {
+  font-family: var(--font-normal);
+  font-variation-settings: "wght" 300;
+  color: var(--fgcolor);
+  letter-spacing: -.25px;
+  font-size: 1.33rem;
+  line-height: 150%;
+}
